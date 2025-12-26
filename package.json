@@ -1,0 +1,29 @@
+{
+  "name": "notdotblur",
+  "version": "1.0.0",
+  "description": "NotDotBlur",
+  "main": "index.js",
+  "dependencies": {
+    "baseline-browser-mapping": "^2.9.9",
+    "browserslist": "^4.28.1",
+    "caniuse-lite": "^1.0.30001760",
+    "electron-to-chromium": "^1.5.267",
+    "escalade": "^3.2.0",
+    "fraction.js": "^5.3.4",
+    "nanoid": "^5.1.6",
+    "node-releases": "^2.0.27",
+    "normalize-range": "^0.1.2",
+    "picocolors": "^1.1.1",
+    "postcss-value-parser": "^4.2.0",
+    "source-map-js": "^1.2.1",
+    "update-browserslist-db": "^1.2.3"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "neu run"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs"
+}
