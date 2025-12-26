@@ -1,0 +1,171 @@
+/* Base Reset and Theme Settings */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #2c2c34; /* Dark theme background color */
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    overflow: hidden; 
+    
+    /* NEW: Disable text selection except in input fields */
+    user-select: none;
+    -webkit-user-select: none; /* For WebKit/Blink (Chromium/WebView2) */
+    -moz-user-select: none; /* For Firefox */
+    -ms-user-select: none; /* For Internet Explorer/Edge (older WebView) */
+}
+
+/* Main Container (Flat UI) */
+#app-container {
+    padding: 32px;
+    width: 90%; 
+    max-width: 480px; 
+    box-sizing: border-box; 
+    /* No explicit background or shadow for the flat look */
+}
+
+/* Title */
+h1 {
+    font-size: 2.0rem; /* Reduced size for the banner text */
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 16px; /* Reduced bottom margin */
+    color: #64b5f6; /* Blue accent color */
+}
+
+/* Settings Frame */
+#settings-frame {
+    /* Box decorations removed (no background, padding kept clean) */
+    padding: 0; 
+    margin-bottom: 24px;
+    display: flex;
+    flex-direction: column; 
+}
+
+label {
+    display: block;
+    font-size: 1.1rem;
+    font-weight: 500;
+    margin-bottom: 8px;
+    padding-left: 12px;
+}
+
+/* Input Box Styling */
+input[type="number"] {
+    width: 100%; 
+    background-color: #383842; 
+    color: #ffffff;
+    border: 1px solid #555;
+    border-radius: 6px;
+    padding: 10px 12px;
+    font-size: 1rem;
+    transition: border-color 0.2s;
+    box-sizing: border-box; 
+
+    /* Override user-select for input fields to allow selection */
+    user-select: text;
+    -webkit-user-select: text;
+    -moz-user-select: text;
+    -ms-user-select: text;
+}
+
+/* Hide the number input spinner arrows (right side) */
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+input[type="number"] {
+    -moz-appearance: textfield; /* For Firefox */
+}
+
+input[type="number"]:focus {
+    outline: none;
+    border-color: #64b5f6;
+}
+
+/* NEW: Change text selection color to cyan for the input box */
+input[type="number"]::selection {
+    background-color: #3066668e; /* Cyan */
+    color: #000000; /* Ensure text remains readable */
+}
+input[type="number"]::-moz-selection { /* For Firefox */
+    background-color: #3066668e;
+    color: #000000;
+}
+
+
+/* Button Styling */
+#select-image-button {
+    width: 100%;
+    background-color: #4caf50; /* Green action color */
+    color: white;
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding: 14px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.2s, transform 0.1s;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+#select-image-button:hover {
+    background-color: #66bb6a;
+}
+
+#select-image-button:active {
+    transform: scale(0.99);
+}
+
+/* Language Buttons */
+#language-frame {
+    display: flex;
+    justify-content: flex-end;
+    gap: 8px;
+    margin-bottom: 16px;
+}
+
+.lang-button {
+    font-size: 0.9rem;
+    padding: 6px 12px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+/* Active Language Button */
+.lang-button.active {
+    background-color: #64b5f6;
+    color: #1a1a20;
+    font-weight: bold;
+}
+
+.lang-button:not(.active) {
+    background-color: #555;
+    color: #ccc;
+}
+
+.lang-button:not(.active):hover {
+    background-color: #666;
+}
+
+/* Info and Status Text */
+#info-label {
+    font-size: 0.85rem;
+    color: #aaa;
+    text-align: center;
+    margin-top: 16px;
+}
+
+#status-text {
+    font-size: 0.9rem;
+    color: #ffeb3b; /* Yellow warning/status color */
+    text-align: center;
+    margin-top: 8px;
+    word-break: break-all;
+    font-family: monospace;
+}
