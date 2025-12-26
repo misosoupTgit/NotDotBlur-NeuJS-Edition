@@ -6,6 +6,8 @@ It is lightweight, fast, and leverages web technologies.
 The binary size was ultimately reduced to **700KB**,
 and even the standard model is only about **2.5MB**.
 
+## Enjoy the new experience of the rebuilt NotDotBlur!
+
 <img width="1280" height="256" alt="image" src="https://github.com/user-attachments/assets/d06a3338-6e2a-4b3e-8c55-7030f808451c" />
 <img width="195" height="56" src="https://img.shields.io/badge/-python-ffd700.svg?logo=python&style=for-the-badge">
 
