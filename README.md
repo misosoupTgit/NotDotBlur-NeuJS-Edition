@@ -1,4 +1,4 @@
-# NotDotBlur 
+# NotDotBlur NeuJS Edition
 
 This is a completely rebuilt model of the existing dot art high-resolution software NotDotBlur,
 now utilizing the excellent NeutralinoJS library.
