@@ -1,2 +1,28 @@
-# NotDotBlur---NeuJS-Edition
-NotDotBlur, a high-quality dot art enhancement software, has been transformed into an ultra-lightweight, modern application.
+# 警告: 
+exeファイルは、起動時、zipファイルのダウンロード時などにwindowsディフェンダーやその他のウイルスバスターによってブロックされる場合があります。
+このプログラムには実際にはウイルスは含まれていません。ただし、ご心配な場合は、問題を解決するためのパッチによるアップデートをしばらくお待ちいただければ幸いです！
+# ノットドットブラー
+<画像 幅=「1280」 高さ=「256」 代替=「画像」 src=「https://github。com/user-attachments/assets/d06a3338-6e2a-4b3e-8c55-7030f808451c"」 />
+<画像 幅=「195」 高さ=「56」 src=「https://img。shields。io/badge/-python-ffd700。svg？logo=python」&スタイル=バッジ用」>
+
+## サンプル 
+### 左:使用前 右:使用後
+<画像 幅=「256」 高さ=「256」 代替=「アイコン」 src=「https://github。com/user-attachments/assets/1a284eb9-3198-448e-9523-f3581a8371b7"」 />
+<画像 幅=「256」 高さ=「256」 代替=「icon32」 src=「https://github。com/user-attachments/assets/df5da0d1-c2aa-40cf-8039-d4672267766f"」 />
+
+## ギ
+
+<画像 幅=「595」 高さ=「427」 代替=「画像」 src=「https://github。com/user-attachments/assets/32cabcf6-595a-4d40-9f2b-f68248d8283f"」 />
+
+## システム要件
+
+### Windows 10/11 以上。
+### cinebench R23 マルチコアで少なくとも score1000+
+
+### 少なくとも 15 MB の空き容量
+
+### 少なくとも2 GBのメモリ
+
+## ノート
+このソフトウェアはソース コードに従って python で書かれていますが、必要なライブラリがすべて 1 つの exe ファイルに含まれているため、python 環境なしで起動できます。
+開発者はまだ経験が非常に浅いため、一部の部分が不完全である可能性があります。その場合は、号で送ってください。最善を尽くします。
