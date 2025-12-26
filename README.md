@@ -1,7 +1,10 @@
 # NotDotBlur 
 
-This is a **completely rebuilt model** that adopts the excellent NeutralinoJS library, enabling lightweight, high-speed operation while leveraging web technologies, as an upgrade to the existing dot art high-resolution software NotDotBlur.
-The binary size has been reduced to **700kb** at final build, and even the standard model is only around **2.5MB**.
+This is a completely rebuilt model of the existing dot art high-resolution software NotDotBlur,
+now utilizing the excellent NeutralinoJS library.
+It is lightweight, fast, and leverages web technologies.
+The binary size was ultimately reduced to **700KB**,
+and even the standard model is only about **2.5MB**.
 
 <img width="1280" height="256" alt="image" src="https://github.com/user-attachments/assets/d06a3338-6e2a-4b3e-8c55-7030f808451c" />
 <img width="195" height="56" src="https://img.shields.io/badge/-python-ffd700.svg?logo=python&style=for-the-badge">
