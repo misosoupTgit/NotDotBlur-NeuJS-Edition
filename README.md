@@ -1,7 +1,8 @@
-# Warning: 
-exe files may be blocked by windows defender or other virus busters when launching, downloading zip files, etc.
-The program does not actually contain any viruses. However, if you are concerned, we would appreciate it if you could wait a while for an update with a patch to fix the problem!
 # NotDotBlur 
+
+This is a **completely rebuilt model** that adopts the excellent NeutralinoJS library, enabling lightweight, high-speed operation while leveraging web technologies, as an upgrade to the existing dot art high-resolution software NotDotBlur.
+The binary size has been reduced to **700kb** at final build, and even the standard model is only around **2.5MB**.
+
 <img width="1280" height="256" alt="image" src="https://github.com/user-attachments/assets/d06a3338-6e2a-4b3e-8c55-7030f808451c" />
 <img width="195" height="56" src="https://img.shields.io/badge/-python-ffd700.svg?logo=python&style=for-the-badge">
 
@@ -18,9 +19,8 @@ The program does not actually contain any viruses. However, if you are concerned
 ## system requirements
 
 ### Windows 10/11 or higher.
-### At least score1000+ on cinebench R23 multi-core
 
-### At least 15 MB of free space
+### At least 3 MB of free space
 
 ### At least 2 GB of memory
 
