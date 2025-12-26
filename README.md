@@ -1,28 +1,28 @@
-# 警告: 
-exeファイルは、起動時、zipファイルのダウンロード時などにwindowsディフェンダーやその他のウイルスバスターによってブロックされる場合があります。
-このプログラムには実際にはウイルスは含まれていません。ただし、ご心配な場合は、問題を解決するためのパッチによるアップデートをしばらくお待ちいただければ幸いです！
-# ノットドットブラー
-<画像 幅=「1280」 高さ=「256」 代替=「画像」 src=「https://github。com/user-attachments/assets/d06a3338-6e2a-4b3e-8c55-7030f808451c"」 />
-<画像 幅=「195」 高さ=「56」 src=「https://img。shields。io/badge/-python-ffd700。svg？logo=python」&スタイル=バッジ用」>
+# Warning: 
+exe files may be blocked by windows defender or other virus busters when launching, downloading zip files, etc.
+The program does not actually contain any viruses. However, if you are concerned, we would appreciate it if you could wait a while for an update with a patch to fix the problem!
+# NotDotBlur 
+<img width="1280" height="256" alt="image" src="https://github.com/user-attachments/assets/d06a3338-6e2a-4b3e-8c55-7030f808451c" />
+<img width="195" height="56" src="https://img.shields.io/badge/-python-ffd700.svg?logo=python&style=for-the-badge">
 
-## サンプル 
-### 左:使用前 右:使用後
-<画像 幅=「256」 高さ=「256」 代替=「アイコン」 src=「https://github。com/user-attachments/assets/1a284eb9-3198-448e-9523-f3581a8371b7"」 />
-<画像 幅=「256」 高さ=「256」 代替=「icon32」 src=「https://github。com/user-attachments/assets/df5da0d1-c2aa-40cf-8039-d4672267766f"」 />
+## Sample 
+### Left:Before use　　Right:After use
+<img width="256" height="256" alt="icon" src="https://github.com/user-attachments/assets/1a284eb9-3198-448e-9523-f3581a8371b7" />
+<img width="256" height="256" alt="icon32" src="https://github.com/user-attachments/assets/df5da0d1-c2aa-40cf-8039-d4672267766f" />
 
-## ギ
+## gui
 
-<画像 幅=「595」 高さ=「427」 代替=「画像」 src=「https://github。com/user-attachments/assets/32cabcf6-595a-4d40-9f2b-f68248d8283f"」 />
+<img width="595" height="427" alt="image" src="https://github.com/user-attachments/assets/32cabcf6-595a-4d40-9f2b-f68248d8283f" />
 
-## システム要件
+## system requirements
 
-### Windows 10/11 以上。
-### cinebench R23 マルチコアで少なくとも score1000+
+### Windows 10/11 or higher.
+### At least score1000+ on cinebench R23 multi-core
 
-### 少なくとも 15 MB の空き容量
+### At least 15 MB of free space
 
-### 少なくとも2 GBのメモリ
+### At least 2 GB of memory
 
-## ノート
-このソフトウェアはソース コードに従って python で書かれていますが、必要なライブラリがすべて 1 つの exe ファイルに含まれているため、python 環境なしで起動できます。
-開発者はまだ経験が非常に浅いため、一部の部分が不完全である可能性があります。その場合は、号で送ってください。最善を尽くします。
+## Note
+This software is written in python as per the source code, but can be started without a python environment since all necessary libraries are included in a single exe file.
+The developer is still very inexperienced, so some parts may be incomplete. The In that case, please send it to me in an issue and I will do the best I can.
