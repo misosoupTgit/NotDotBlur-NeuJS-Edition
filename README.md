@@ -12,7 +12,8 @@ The program does not actually contain any viruses. However, if you are concerned
 
 ## gui
 
-<img width="595" height="427" alt="image" src="https://github.com/user-attachments/assets/32cabcf6-595a-4d40-9f2b-f68248d8283f" />
+<img width="967" height="677" alt="image" src="https://github.com/user-attachments/assets/d4f96f48-680b-4125-886a-1747291bb614" />
+
 
 ## system requirements
 
