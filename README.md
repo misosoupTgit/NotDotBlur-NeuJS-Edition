@@ -8,7 +8,7 @@ and even the standard model is only about **2.5MB**.
 
 ## Enjoy the new experience of the rebuilt NotDotBlur!
 
-<img width="1280" height="256" alt="image" src="https://github.com/user-attachments/assets/d06a3338-6e2a-4b3e-8c55-7030f808451c" />u
+<img width="1280" height="256" alt="image" src="https://github.com/user-attachments/assets/d06a3338-6e2a-4b3e-8c55-7030f808451c" />
 
 ## Sample 
 ### Left:Before use　　Right:After use
